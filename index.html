@@ -1,0 +1,101 @@
+<link rel="stylesheet" href="styles.css">
+
+<body>
+<h1 id="title">Customer Satisfication Survey Form</h1>
+<p id="description">Hi! Feel free to fill out this form to indicate your satisfication level with our company's events and website. Thank you for your time.</p>
+
+<main>
+  <div class="box">
+  <form id="survey-form">
+
+    <div>
+      <label id="name-label" for="name">Name<br>
+        <input name="name" id="name" type="text" placeholder="Enter your name" required>
+      </label><br><br>
+     </div>
+    
+    <div>
+    <label id="email-label" for="email">Email<br>
+      <input name="email" id="email" type="email" placeholder="Enter your email" required>
+    </label><br><br>
+    </div>
+    
+    <div>
+    <label id="number-label" for="number">Age<br>
+      <input name="number" id="number" type="number" min="5" max="150" placeholder="Age">
+    </label><br><br>
+    </div>
+    
+    <div>
+      <label for="currentrole" name="currentrole">What option describes your current role?<br>
+      <select id="dropdown" name="currentrole">
+        <option value="currentrole">Select current role</option>
+        <option value="undgradstud">Undergraduate Student</option>
+        <option value="gradstud">Graduate Student</option>
+        <option value="fulltimejob">Full Time Job</option>
+        <option value="other">Other</option>
+        <option value="prefernot">Prefer not to say</option>
+      </select><br><br>
+     </label>
+    </div>
+      
+    <div>
+      <label for="rating">On a scale of 0 to 10, how would you rate your experience?<br>
+      <input id="rating0" type="radio" name="rating" value="rating0">
+      <label for="rating0" class="ratings"> 0</label>
+      <input id="rating1" type="radio" name="rating" value="rating1">
+      <label for="rating1" class="ratings"> 1</label>
+      <input id="rating2" type="radio" name="rating" value="rating2">
+      <label for="rating2" class="ratings"> 2</label>
+      <input id="rating3" type="radio" name="rating" value="rating3">
+      <label for="rating3" class="ratings"> 3</label>
+      <input id="rating4" type="radio" name="rating" value="rating4">
+      <label for="rating4" class="ratings"> 4</label>
+      <input id="rating5" type="radio" name="rating" value="rating5">
+        <label for="rating5" class="ratings"> 5</label>
+      <input id="rating6" type="radio" name="rating" value="rating6">
+        <label for="rating6" class="ratings"> 6</label>
+      <input id="rating7" type="radio" name="rating" value="rating7">
+        <label for="rating7" class="ratings"> 7</label>
+      <input id="rating8" type="radio" name="rating" value="rating8"> 
+        <label for="rating8" class="ratings"> 8</label>
+      <input id="rating9" type="radio" name="rating" value="rating9">
+        <label for="rating9" class="ratings"> 9</label>
+      <input id="rating10" type="radio" name="rating" value="rating10">
+       <label for="rating10" class="ratings"> 10</label>
+      </label><br><br>
+    </div>
+    
+    <div>
+      <label for="favfeature">What is your favourite feature?<br>
+        <select id="featuredropdown" name="favfeature">
+          <option value="selectoption">Select an option</option>
+          <option value="liveaudio">Live Audio</option>
+          <option value="podcast">Podcast</option>
+          <option value="events">Upcoming Events</option>
+          <option value="emails">Informational Emails</option>
+          <option value="articles">Frequent Article Updates</option>
+        </select><br><br>
+      </label>
+    </div>
+    
+    <div>
+      <label for="source">How did you hear about us?<br>
+        <input id="handshake" type="checkbox" name="source" value="source">Handshake</input>
+        <input id="facebook" type="checkbox" name="source" value="source">Facebook</input>
+        <input id="friend" type="checkbox" name="source" value="source">Friend</input>
+        <input id="other" type="checkbox" name="source" value="source">Other</input>
+      </label><br><br>
+    </div>
+
+    <div>
+      <label for="comments">Any comments or suggestions?<br>
+        <textarea name="message" placeholder="Enter your comment here..."></textarea></label><br><br>
+    </div>
+
+<button id="submit" type="submit" form="survey-form" value="Submit">Submit</button>
+  </form>
+  </div>
+
+</main>
+</body>

@@ -1,0 +1,61 @@
+:root {
+    background-color: white;
+  }
+  
+  #title {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  #description {
+    margin: 0 32% 1.25% 32%;
+  }
+  
+
+  .box {
+    background-color: coral;
+    margin: 0% 30% 5% 30%;
+    padding: 2% 3% 2% 2%;
+    border-radius: 2%;
+  }
+  
+  
+  label {
+    font-size: 125%;
+  }
+  
+  .ratings {
+    font-size: 100%;
+  }
+  
+  input {
+    font-size: 75%;
+  }
+  
+  select {
+    font-size: 75%;
+    width: 102%;
+  }
+  
+  #name {
+    width: 100%;
+  }
+  
+  #email {
+    width: 100%;
+  }
+  
+  #submit {
+    font-size: 100%;
+    width: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 25%;
+  }
+  
+  textarea {
+    font-size: 100%;
+    width: 100%;
+    height: 200px;
+  }
